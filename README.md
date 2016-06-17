@@ -4,7 +4,8 @@
 
 **La navbar (discret) : header**
 
-__2 sections :__  1. *texte + image 
-                  2. *texte
+**2 sections :**
+* texte + image
+* texte
 
 **La navbar (discret) : footer**
