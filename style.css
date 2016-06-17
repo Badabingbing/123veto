@@ -1,33 +1,33 @@
 /*1-#89FFF1	bg-#FFFFFF action-#B2603C		*/
-.header{
-	background-color:#FFFFFF;
+.logo{
+	background-color: yellow;
 	height:150px;
 }
 .barre{
-	background-color:#FFFFFF;
+	background-color: red;
 	height:75px;
 }
 .block_1{
-	background-color:#FFFFFF;
+	background-color: green;
 	height:425px;
 }
 .presentation{
-	background-color:#FFFFFF;
+	background-color: purple;
 	height:400px;
 	padding:25px;
 	border:2px double #89FFF1;
 	border-radius: 25px 25px;
 }
 .image{
-	background-color:#FFFFFF;
+	background-color: black;
 	height:400px;
 }
 .block_2{
-	background-color:#89FFF1;
+	background-color: pink;
 	height:400px;
 }
 .footer{
 	border-top: 2px double #89FFF1;
-	background-color:#FFFFFF;
+	background-color: black;
 	height:75px;
 }
