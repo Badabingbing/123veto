@@ -1,15 +1,22 @@
-/*1-#89FFF1	bg-#FFFFFF action-#B2603C		*/
-/* font-family: Delius; font-family: Laila; */
+/* bg-#2043FF ou #0198B5 1-#00FF00 action-#06D8FF		*/
+/* font-family: Delius; font-family: 'Gabriela', serif; font-family: 'Kotta One'; */
+
+body {
+	margin: 0;
+	font-family: 'Kotta One';
+	background-color: #8296FF;
+}
+
 .logo{
-	background-color: yellow;
+	background-color: #8296FF;
 }
 
 .barre{
-	background-color: red;
+	background-color: #70FF70;
 	height:75px;
 }
 .block_1{
-	background-color: green;
+	color: white;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -17,9 +24,11 @@
 
 }
 .presentation{
-	background-color: purple;
-	border:2px double #89FFF1;
 	border-radius: 25px 25px;
+	font-family: Delius;
+	border: black solid;
+	padding: 2%;
+
 }
 .image{
 	background-color: black;
@@ -27,15 +36,18 @@
 }
 
 .cadre2 {
-	background-color: cyan;
+	background-color: #A4FFA4;
 }
 .block_2{
-	background-color: pink;
+	background-color: #A4FFA4;
 	height:100vh;
 }
+h2 {	
+	font-family: 'Gabriela', serif;
+}
 .footer{
-	border-top: 2px double #89FFF1;
-	background-color: black;
-	height:75px;
+	/*border-top: 2px double #89FFF1;*/
+	background-color: #70FF70;
+	height: 75px;
 }
 
