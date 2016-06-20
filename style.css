@@ -1,19 +1,21 @@
 /*1-#89FFF1	bg-#FFFFFF action-#B2603C		*/
 .logo{
 	background-color: yellow;
-	height:150px;
 }
+
 .barre{
 	background-color: red;
 	height:75px;
 }
 .block_1{
 	background-color: green;
-	height:425px;
+	height: 100vh;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 .presentation{
 	background-color: purple;
-	height:400px;
+	/*height:400px;*/
 	padding:25px;
 	border:2px double #89FFF1;
 	border-radius: 25px 25px;
@@ -22,12 +24,17 @@
 	background-color: black;
 	height:400px;
 }
+
+.cadre2 {
+	background-color: cyan;
+}
 .block_2{
 	background-color: pink;
-	height:400px;
+	height:100vh;
 }
 .footer{
 	border-top: 2px double #89FFF1;
 	background-color: black;
 	height:75px;
 }
+
