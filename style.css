@@ -1,4 +1,5 @@
 /*1-#89FFF1	bg-#FFFFFF action-#B2603C		*/
+/* font-family: Delius; font-family: Laila; */
 .logo{
 	background-color: yellow;
 }
@@ -10,13 +11,13 @@
 .block_1{
 	background-color: green;
 	height: 100vh;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 .presentation{
 	background-color: purple;
-	/*height:400px;*/
-	padding:25px;
 	border:2px double #89FFF1;
 	border-radius: 25px 25px;
 }
