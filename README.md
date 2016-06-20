@@ -5,7 +5,7 @@
 **La navbar (discret) : header**
 
 **2 sections :**
-* texte + image
+* texte + image typo : _Delius et Laila_
 * texte
 
 **La navbar (discret) : footer**
