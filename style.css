@@ -4,27 +4,29 @@
 body {
 	margin: 0;
 	font-family: 'Kotta One';
-	background-color: #8296FF;
+	background-color: white;
 }
 
 .logo {
 	margin-top: 50px;
 }
-
+.name_logo {
+	color: #44a5e8;
+	font-size: 60px;
+	margin-top: -10%;
+}
 .block_1{
-	color: white;
+	color: black;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
 .presentation{
 	border-radius: 25px 25px;
 	font-family: Delius;
 	border: black solid;
 	padding: 2%;
-
 }
 .image{
 	background-color: black;
