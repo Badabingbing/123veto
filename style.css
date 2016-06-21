@@ -7,14 +7,10 @@ body {
 	background-color: #8296FF;
 }
 
-.logo{
-	background-color: #8296FF;
+.logo {
+	margin-top: 50px;
 }
 
-.barre{
-	background-color: #70FF70;
-	height:75px;
-}
 .block_1{
 	color: white;
 	height: 100vh;
