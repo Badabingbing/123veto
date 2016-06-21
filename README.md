@@ -1,6 +1,9 @@
 # 123veto
 
-**La navbar (background :#44a5e8) : header**
+###Description suivant : _la page d'accueil_
+-----------------
+
+**La navbar (background :#44a5e8 et fixed-top) : header**
 
 ![Logo](Vrai_logo.png)
 
@@ -14,7 +17,9 @@ Descriptif de la clinique + photo <br/>
 Descriptif + portraits ==> Notre équipe : les 2 vétérianaires <br/>
 (background : white)
 
-**les 2 sections :** <br/>
-typo : _Delius, Gabriela et Kotta One_
-
 **La navbar (background :#44a5e8) : footer**
+<br/>
+<br/>
+
+###**les 2 sections : <br/>**
+typo : _Delius, Gabriela et Kotta One_
