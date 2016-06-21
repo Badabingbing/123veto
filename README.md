@@ -1,11 +1,14 @@
 # 123veto
 
-![Logo](/images/logo.png)
+**La navbar (background :#44a5e8) : header**
 
-**La navbar (discret) : header**
+![Logo](Vrai_logo.png)
 
-**2 sections :**
-* texte + image typo : _Delius et Laila_
-* texte
+**> Section 1** <br/>
+<!-- -->
+* texte + image typo : _Delius, Gabriela et Kotta One_ <br/>
+**> Section 2** <br/>
+les 2 sections :
+* textes
 
-**La navbar (discret) : footer**
+**La navbar (background :#44a5e8) : footer**
