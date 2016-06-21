@@ -28,6 +28,16 @@ body {
 	color: blue;
 }
 
+.name_logo {
+    color: #44a5e8;
+    font-size: 60px;
+    margin-top: -10%;
+}
+
+.cadre1 {
+	background-color: #44a5e8; 
+}
+
 .block_1 {
 	color: white;
 	height: 100vh;
@@ -47,10 +57,10 @@ body {
 }
 
 .cadre2 {
-	background-color: #A4FFA4;
+	background-color: white;
 }
 .block_2{
-	background-color: #A4FFA4;
+	background-color: white;
 	height:100vh;
 }
 
@@ -59,7 +69,7 @@ h2 {
 }
 footer {
 	background-color: #44a5e8;
-	height: 200px;
+	height: 50px;
 	padding-top: 8px;
 	color: black;
 	
