@@ -4,18 +4,32 @@
 body {
 	margin: 0;
 	font-family: 'Kotta One';
-	background-color: #8296FF;
+	background-color: white;
 }
 
-.logo{
-	background-color: #8296FF;
+
+#navbar {
+	background-color: #44a5e8;
+	color: black;
 }
 
-.barre{
-	background-color: #70FF70;
-	height:75px;
+#navbar a {
+	color: black;
 }
-.block_1{
+
+
+#navbar ul li {
+	padding-left: 50px;
+}
+
+.navbar-right {
+	padding-top: 10px;
+	padding-right: 60px;
+	word-spacing: 30px;
+	color: blue;
+}
+
+.block_1 {
 	color: white;
 	height: 100vh;
 	display: flex;
@@ -42,12 +56,19 @@ body {
 	background-color: #A4FFA4;
 	height:100vh;
 }
+
 h2 {	
 	font-family: 'Gabriela', serif;
 }
-.footer{
-	/*border-top: 2px double #89FFF1;*/
-	background-color: #70FF70;
-	height: 75px;
+footer {
+	background-color: #44a5e8;
+	height: 200px;
+	padding-top: 8px;
+	color: black;
+	
+}
+
+footer a {
+	color: black;
 }
 
