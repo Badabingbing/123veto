@@ -7,18 +7,27 @@ body {
 	background-color: white;
 }
 
+.navbar-brand, .name_logo {font-family: 'Gabriela'}
+
+.navbar-brand {
+	border-right: 2.5px solid white;
+	padding-right: 25px;
+}
+
+
 #navbar {
 	background-color: #44a5e8;
 	color: black;
 }
 
 #navbar a {
-	color: black;
+	color: white;
 }
 
 
 #navbar ul li {
-	padding-left: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .navbar-right {
@@ -27,55 +36,97 @@ body {
 	word-spacing: 30px;
 	color: blue;
 }
-
+.logo {
+	height: 60vh;
+	margin-top: 15vh;
+}
 .name_logo {
     color: #44a5e8;
     font-size: 60px;
     margin-top: -10%;
 }
-
+.bloclogo {
+	height: 100vh;
+}
 .cadre1 {
-	background-color: #44a5e8; 
+	background-color: #44a5e8;
+	padding-top: 25px;
+    padding-bottom: 25px; 
+	height: 100vh;
+}
+.presentation p{
+	font-size:18px;
 }
 
 .block_1 {
 	color: white;
-	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 .presentation{
-	border-radius: 25px 25px;
 	font-family: Delius;
-	border: black solid;
+	font-weight: 600;
 	padding: 2%;
+	margin:5%;
+	border-top:2px black solid;
+	border-bottom:2px black solid;
+
 }
+.presentation_1, .presentation_2{
+	margin-bottom:auto;
+	margin-top: auto;
+}
+
 .image{
-	background-color: black;
+	background-image:url("img/stockimg.jpg");
 	height:400px;
+	border-radius:25px;
+	border:10px black solid;
+	margin:2%;
+	padding:17%;
 }
 
 .cadre2 {
 	background-color: white;
+	margin-top:25px;
+	height:100vh;
 }
 .block_2{
 	background-color: white;
-	height:100vh;
 }
-
+.block_2 p{
+	font-size:20px;
+	margin-bottom:25px;
+}
 h2 {	
 	font-family: 'Gabriela', serif;
+	padding-top:25px;
+	font-size:38px;
+	text-decoration:underline;
+	text-decoration-color:#44a5e8;
 }
+h3{
+	font-size:35px;
+	margin-top:55px;
+	margin-bottom:45px;
+}
+.texte_2{
+	margin-top:125px;
+}
+
 footer {
 	background-color: #44a5e8;
 	height: 50px;
 	padding-top: 8px;
-	color: black;
+	color: white;
 	
 }
 
 footer a {
-	color: black;
+	color: white;
 }
 
+.borderright {
+	border-right: 1px solid black;
+}
