@@ -52,7 +52,7 @@ body {
 	background-color: #44a5e8;
 	padding-top: 25px;
     padding-bottom: 25px; 
-
+	height: 100vh;
 }
 .presentation p{
 	font-size:18px;
@@ -60,7 +60,6 @@ body {
 
 .block_1 {
 	color: white;
-	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -90,10 +89,10 @@ body {
 .cadre2 {
 	background-color: white;
 	margin-top:25px;
+	height:100vh;
 }
 .block_2{
 	background-color: white;
-	height:100vh;
 }
 .block_2 p{
 	font-size:20px;
