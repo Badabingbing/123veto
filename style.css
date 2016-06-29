@@ -14,16 +14,16 @@ body {
 	padding-right: 25px;
 }
 
-
 #navbar {
 	background-color: #44a5e8;
-	color: black;
 }
 
 #navbar a {
 	color: white;
 }
-
+#listnav a {
+	color: black;
+}
 
 #navbar ul li {
 	padding-left: 25px;
