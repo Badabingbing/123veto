@@ -7,6 +7,10 @@ body {
 	background-color: white;
 }
 
+.navbar-brand {font-family: 'Gabriela'}
+
+.name_logo {font-family: 'Gabriela'}
+
 #navbar {
 	background-color: #44a5e8;
 	color: black;
