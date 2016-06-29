@@ -7,9 +7,13 @@ body {
 	background-color: white;
 }
 
-.navbar-brand {font-family: 'Gabriela'}
+.navbar-brand, .name_logo {font-family: 'Gabriela'}
 
-.name_logo {font-family: 'Gabriela'}
+.navbar-brand {
+	border-right: 2.5px solid white;
+	padding-right: 25px;
+}
+
 
 #navbar {
 	background-color: #44a5e8;
@@ -17,12 +21,13 @@ body {
 }
 
 #navbar a {
-	color: black;
+	color: white;
 }
 
 
 #navbar ul li {
-	padding-left: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .navbar-right {
@@ -56,21 +61,18 @@ body {
 	align-items: center;
 }
 .presentation{
-	/*border-radius: 25px 25px;*/
 	font-family: Delius;
-	/*border: 10px black double;*/
 	padding: 2%;
 	margin:5%;
 	border-top:2px black solid;
 	border-bottom:2px black solid;
 
 }
-.presentation_1{
-	margin-bottom:30%;
+.presentation_1, .presentation_2{
+	margin-bottom:auto;
+	margin-top: auto;
 }
-.presentation_2{
-	margin-top:30%;
-}
+
 .image{
 	background-image:url("img/stockimg.jpg");
 	height:400px;
