@@ -5,7 +5,7 @@
 
 **La navbar (background :#44a5e8 et fixed-top) : header**
 
-![Logo](Vrai_logo.png)
+![Logo](Logo_final.png)
 
 **> Section 1 :** <br/>
 <!-- -->
