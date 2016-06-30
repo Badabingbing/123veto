@@ -31,3 +31,15 @@ body {
 	word-spacing: 30px;
 	color: blue;
 }
+
+/*footer*/
+
+footer {
+	background-color: #44a5e8;
+	height: 50px;
+	padding-top: 8px;
+	color: white;
+}
+footer a {
+	color: white;
+}
