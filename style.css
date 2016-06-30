@@ -41,6 +41,10 @@ body {
 .navbar-right a:hover {
 	text-decoration: none;
 }
+.dropdown:hover > .dropdown-menu {
+	visibility: visible;
+	display: block;
+}
 .logo {
 	height: 60vh;
 	margin-top: 15vh;
