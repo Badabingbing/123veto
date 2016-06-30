@@ -25,6 +25,9 @@ body {
 #listnav a {
 	color: black;
 }
+#navbar a:hover {
+	color: black;
+}
 #navbar ul li {
 	padding-left: 25px;
 	padding-right: 25px;
