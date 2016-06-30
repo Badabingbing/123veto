@@ -38,6 +38,9 @@ body {
 	word-spacing: 30px;
 	color: blue;
 }
+.navbar-right a:hover {
+	text-decoration: none;
+}
 .logo {
 	height: 60vh;
 	margin-top: 15vh;
