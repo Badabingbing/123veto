@@ -4,6 +4,10 @@ body {
 	background-color: white;
 }
 
+.nopad {
+	padding-left: 0;
+	padding-right: 0;
+}
 /*navbar*/
 
 .navbar-brand, .name_logo {font-family: 'Gabriela'}
@@ -23,7 +27,7 @@ body {
 }
 #navbar ul li {
 	padding-left: 25px;
-	padding-right: 25px;
+	padding-right: 25px; 
 }
 .navbar-right {
 	padding-top: 10px;
@@ -32,9 +36,19 @@ body {
 	color: blue;
 }
 
+/* sections */
+
 .bluebg {
 	background-color: #44a5e8;
+	color: white;
 }
+
+/*ancres*/ 
+
+.ancresli li{
+	display: inline;
+}
+
 
 section {
 	height: 100vh;
@@ -44,11 +58,11 @@ section {
 /*footer*/
 
 footer {
-	background-color: #44a5e8;
+	background-color: white;
 	height: 50px;
 	padding-top: 8px;
-	color: white;
+	color: #44a5e8;
 }
 footer a {
-	color: white;
+	color: #44a5e8;
 }
