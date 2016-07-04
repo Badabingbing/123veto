@@ -22,9 +22,9 @@ body {
 #navbar a {
 	color: white;
 }
-/*#myNavbar > .dropdown:active {
+#navbar:active {
 	background-color: #44a5e8;
-}*/
+}
 #listnav a {
 	color: black;
 }

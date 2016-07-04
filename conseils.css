@@ -35,7 +35,10 @@ body {
 	word-spacing: 30px;
 	color: blue;
 }
-
+.dropdown:hover > .dropdown-menu {
+	visibility: visible;
+	display: block;
+}
 /* sections */
 
 .bluebg {
