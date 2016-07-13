@@ -1,0 +1,77 @@
+/*commentaires*/
+
+body {
+	margin: 0;
+	font-family: 'Kotta One';
+	background-color: white;
+    padding-top: 5%;
+}
+.nopad {
+	padding-left: 0;
+	padding-right: 0;
+}
+/*navbar*/
+
+.navbar-brand, .name_logo {font-family: 'Gabriela'}
+
+.navbar-brand {
+	border-right: 2.5px solid white;
+	padding-right: 25px;
+}
+#navbar {
+	background-color: #44a5e8;
+}
+#navbar a {
+	color: white;
+}
+#listnav a {
+	color: black;
+}
+#navbar ul li {
+	padding-left: 25px;
+	padding-right: 25px; 
+}
+.navbar-right {
+	padding-top: 10px;
+	padding-right: 60px;
+	word-spacing: 30px;
+	color: blue;
+}
+.dropdown:hover > .dropdown-menu {
+	visibility: visible;
+	display: block;
+}
+
+/*ancres*/ 
+
+.ancresli li{
+	display: inline;
+}
+
+/* sections */
+
+.bluebg {
+	background-color: #44a5e8;
+	color: white;
+}
+section {
+	height: 100vh;
+}
+h2 {
+    padding-top: 5%;
+}
+#consultation h2 {
+    padding-top: 0;
+}
+
+/*footer*/
+
+footer {
+	background-color: white;
+	height: 50px;
+	padding-top: 8px;
+	color: #44a5e8;
+}
+footer a {
+	color: #44a5e8;
+}
