@@ -88,6 +88,12 @@ body {
 	margin-bottom:auto;
 	margin-top: auto;
 }
+
+img {
+	height: 50%;
+	width: 50%;
+}
+
 .image{
 	background-image:url("img/stockimg.jpg");
 	height:400px;
@@ -110,17 +116,18 @@ body {
 }
 h2 {	
 	font-family: 'Gabriela', serif;
-	padding-top:25px;
+	padding-top:10px;
 	font-size:38px;
 }
 h3 {
 	font-size:35px;
-	margin-top:55px;
-	margin-bottom:45px;
+	margin-top:10px;
+	margin-bottom:20px;
 }
 .texte_2{
-	margin-top:125px;
+	margin-top:70px;
 }
+
 footer {
 	background-color: #44a5e8;
 	height: 50px;
@@ -133,8 +140,6 @@ footer a {
 .borderright {
 	border-right: 1px solid black;
 }
-<<<<<<< HEAD
-=======
 
 #localisation {
 	padding-top: 20px;
@@ -143,4 +148,5 @@ footer a {
 section {
 	margin-left: 10px;
 }
->>>>>>> stephane
+
+
