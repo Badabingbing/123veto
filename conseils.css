@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	font-family: 'Kotta One';
 	background-color: white;
+	padding-top: 5%;
 }
 
 .nopad {
@@ -46,17 +47,23 @@ body {
 	color: white;
 }
 
-/*ancres*/ 
-
-.ancresli li{
-	display: inline;
-}
-
 
 section {
 	height: 100vh;
 }
 
+h2 {
+    padding-top: 5%;
+}
+
+#dentaire h2 {
+	padding-top: 0;
+}
+
+
+section p, section h2 {
+	margin: 5vh;
+}
 
 /*footer*/
 
