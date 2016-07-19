@@ -15,9 +15,10 @@
 </head>
 <body>
 <div class="container-fluid nopad">
-		<!-- barre de navigation -->
-	<div class="row barre">
-		<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+	
+    <!-- barre de navigation -->
+    <div class="row barre">
+        <div id="navbar" class="navbar navbar-default navbar-fixed-top">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="sr-only">Toggle navigation</span>
@@ -25,51 +26,53 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-              <a class="navbar-brand" href="#"><strong>123 VETO</strong></a>
+              <a class="navbar-brand" href="index.html"><strong>123 VETO</strong></a>
           </div>
 
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li><a href="index.html"><strong>ACCUEIL</strong></a></li>
 
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>PRESTATIONS</strong></a>
+				<ul class="dropdown-menu" id="listnav">
+				  <li><a href="prestations.html">consultation</a></li>
+				  <li><a href="#imagerie">imagerie</a></li>
+				  <li><a href="#analysesang">analyse sanguine</a></li>
+				  <li><a href="#chirurgie">chirurgie</a></li>
+				  <li><a href="#hospitalisation">hospitalisation</a></li>
+				  <li><a href="#NAC">NAC</a></li>
+				</ul>
+        	</li>
+
+
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>FICHES CONSEIL</strong></a>
               <ul class="dropdown-menu" id="listnav">
                 <li><a href="conseils.html">Hygiène dentaire</a></li>
-    			<li><a href="#">Hygiène des yeux et des oreilles</a></li>
-    			<li><a href="#">Entretien du pelage</a></li>
-    			<li><a href="#">Parasites internes et externes</a></li>
-    			<li><a href="#">Vacciner votre chien</a></li>
-    			<li><a href="#">Vacciner votre chat</a></li>
-    			<li><a href="#">Identification</a></li>
-    			<li><a href="#">Éducation</a></li>
+                <li><a href="#dentaire">Hygiène dentaire</a></li>
+                <li><a href="#yeux">Hygiène des yeux et des oreilles</a></li>
+                <li><a href="#pelage">Entretien du pelage</a></li>
+                <li><a href="#parasites">Parasites internes et externes</a></li>
+                <li><a href="#vaccinchien">Vacciner votre chien</a></li>
+                <li><a href="#vaccinchat">Vacciner votre chat</a></li>
+                <li><a href="#identification">Identification</a></li>
+                <li><a href="#education">Éducation</a></li>
               </ul>
             </li>
 
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>PRESTATIONS</strong></a>
+        <li><a href="#"><strong>ESPACE VENTE</strong></a></li>
+
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>CONTACT</strong></a>
           <ul class="dropdown-menu" id="listnav">
-            <li><a href="prestations.html">consultation</a></li>
-            <li><a href="#imagerie">imagerie</a></li>
-            <li><a href="#analysesang">analyse sanguine</a></li>
-            <li><a href="#chirurgie">chirurgie</a></li>
-            <li><a href="#hospitalisation">hospitalisation</a></li>
-			<li><a href="#NAC">NAC</a></li>
+            <li><a href="formulaire_contact.html">Formulaire de contact</a></li>
+            <li><a href="localisation.html">Localisation de la clinique</a></li>
           </ul>
         </li>
 
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>NOUS CONTACTER</strong></a>
-          <ul class="dropdown-menu" id="listnav">
-            <li><a href="#">Formulaire de contact</a></li>
-            <li><a href="#">Localisation de la clinique</a></li>
-          </ul>
-        </li>
-            
-        <li><a href="#"><strong>PLAN DU SITE</strong></a></li>
+        <ul class="nav navbar-nav navbar-right text-center">
+          <a href="#" class="fa fa-facebook fa-2x"></a>
+          <a href="#" class="fa fa-google-plus fa-2x"></a>
         </ul>
-
-            <ul class="nav navbar-nav navbar-right text-center">
-              <a href="#" class="fa fa-facebook fa-2x"></a>
-              <a href="#" class="fa fa-twitter fa-2x"></a>
-            </ul>
+               
         </div>
     </div>
     </div>
@@ -77,19 +80,19 @@
     <!--ancres-->
     <div class="ancres">
     	<ul class="ancresli">
-    		<li><a href="#">&bull;Hygiène dentaire</a></li>
-    		<li><a href="#">&bull;Hygiène des yeux et des oreilles</a></li>
-    		<li><a href="#">&bull;Entretien du pelage</a></li>
-    		<li><a href="#">&bull;Parasites internes et externes</a></li>
-    		<li><a href="#">&bull;Vacciner votre chien</a></li>
-    		<li><a href="#">&bull;Vacciner votre chat</a></li>
-    		<li><a href="#">&bull;Identification</a></li>
-    		<li><a href="#">&bull;Éducation</a></li>
+    		<li><a href="#dentaire">&bull;Hygiène dentaire</a></li>
+    		<li><a href="#yeux">&bull;Hygiène des yeux et des oreilles</a></li>
+    		<li><a href="#pelage">&bull;Entretien du pelage</a></li>
+    		<li><a href="#parasites">&bull;Parasites internes et externes</a></li>
+    		<li><a href="#vaccinchien">&bull;Vacciner votre chien</a></li>
+    		<li><a href="#vaccinchat">&bull;Vacciner votre chat</a></li>
+    		<li><a href="#identification">&bull;Identification</a></li>
+    		<li><a href="#education">&bull;Éducation</a></li>
     	</ul>
     </div>
 
     <!--section hygiène dentaire-->
-    <section class="">
+    <section class="" id="dentaire">
     	<h2>Hygiène dentaire</h2>
     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -113,7 +116,7 @@
     </section>
 
     <!--section hygiène yeux et oreilles-->
-    <section class="bluebg">
+    <section class="bluebg" id="yeux">
     	<h2>Hygiène des yeux et des oreilles</h2>
     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -138,7 +141,7 @@
     </section>
 
     <!--section entretien du pelage-->
-    <section class="">
+    <section class="" id="pelage">
     	<h2>Entretien du pelage</h2>
     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -162,7 +165,7 @@
     </section>
 
     <!-- section parasites internes et externes-->
-    <section class="bluebg">
+    <section class="bluebg" id="parasites">
     	<h2>Parasites internes et externes : pourquoi traiter tous les 3 mois ou tous les mois chez animaux adultes</h2>
     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -186,7 +189,7 @@
     </section>
 
     <!-- section vacciner votre chien-->
-    <section class="">
+    <section class="" id="vaccinchien">
     	<h2>Vacciner votre chien : pourquoi et comment ?</h2>
     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -210,7 +213,7 @@
     </section>
 
     <!-- section vacciner votre chat-->
-    <section class="bluebg">
+    <section class="bluebg" id="vaccinchat">
     	<h2>Vacciner votre chat : pourquoi et comment ?</h2>
     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -234,7 +237,7 @@
     </section>	
 
     <!-- section identification-->
-    <section class="">
+    <section class="" id="identification">
     	<h2>Identification : pourquoi et comment ?</h2>
     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -258,7 +261,7 @@
     </section>
 
     <!-- section éducation-->
-    <section class="bluebg">
+    <section class="bluebg" id="education">
     	<h2>Education</h2>
     	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
