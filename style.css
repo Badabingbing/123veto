@@ -92,6 +92,7 @@ body {
 .img_veto {
 	height: 50%;
 	width: 50%;
+	padding-bottom: 5vh;
 }
 
 .image{
@@ -141,6 +142,10 @@ footer a {
 }
 .borderright {
 	border-right: 1px solid black;
+}
+
+.equipe {
+	padding-bottom: 5vh;
 }
 
 #localisation {
