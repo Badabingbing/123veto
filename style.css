@@ -151,4 +151,11 @@ section {
 	margin-left: 10px;
 }
 
+/*page newsletter*/
+button {
+	background-color: #44a5e8;
+	color: white;
+	border-radius: 2vh;
+	margin-top: 10vh;
+}
 
