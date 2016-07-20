@@ -31,7 +31,13 @@
 
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="index.html"><strong>ACCUEIL</strong></a></li>
+            <li class="dropdown"><a href="index.html" id="haut_de_page" class="dropdown-toogle" data-toggle="dropdown" onclick="window.document.location='index.html'"><strong>ACCUEIL</strong></a>
+                <ul class="dropdown-menu" id="listnav">
+                            <li><a href="index.html#clinique">Notre clinique</a></li>
+                            <li><a href="index.html#equipe">Notre équipe</a></li>
+                            
+                </ul>
+            </li>
 
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>PRESTATIONS</strong></a>
           		<ul class="dropdown-menu" id="listnav">
@@ -61,6 +67,8 @@
 
         <li><a href="#"><strong>ESPACE VENTE</strong></a></li>
 
+        <li><a href="#"><strong>PRISE RDV</strong></a></li>
+
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>CONTACT</strong></a>
           <ul class="dropdown-menu" id="listnav">
             <li><a href="formulaire_contact.html">Formulaire de contact</a></li>
@@ -71,6 +79,8 @@
         <ul class="nav navbar-nav navbar-right text-center">
           <a href="#" class="fa fa-facebook fa-2x"></a>
           <a href="#" class="fa fa-google-plus fa-2x"></a>
+          <a href="#" class="fa fa-envelope fa-2x"></a>
+
         </ul>
                
         </div>

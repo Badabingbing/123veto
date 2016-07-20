@@ -38,8 +38,8 @@ body {
 }
 .navbar-right {
 	padding-top: 10px;
-	padding-left: 80px;
-	word-spacing: 30px;
+	padding-left: 60px;
+	word-spacing: 20px;
 	color: blue;
 }
 .navbar-right a:hover {
@@ -49,6 +49,12 @@ body {
 	visibility: visible;
 	display: block;
 }
+
+.img_newsletter {
+	height: 2%;
+	width: 2%;
+}
+
 .logo {
 	height: 60vh;
 	margin-top: 15vh;
@@ -75,6 +81,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 .presentation{
 	font-family: Delius;
@@ -86,7 +93,7 @@ body {
 }
 .presentation_1, .presentation_2{
 	margin-bottom:auto;
-	margin-top: auto;
+	margin-top: 60px;
 }
 
 .img_veto {
@@ -130,6 +137,18 @@ h3 {
 	margin-top:50px;
 }
 
+.borderright {
+	border-right: 1px solid black;
+}
+
+#localisation {
+	padding-top: 30px;
+}
+
+section {
+	margin-left: 10px;
+}
+
 footer {
 	background-color: #44a5e8;
 	height: 50px;
@@ -139,16 +158,6 @@ footer {
 footer a {
 	color: white;
 }
-.borderright {
-	border-right: 1px solid black;
-}
 
-#localisation {
-	padding-top: 20px;
-}
-
-section {
-	margin-left: 10px;
-}
 
 

@@ -18,7 +18,7 @@
 <div class="container-fluid">
 
 <!-- barre de navigation -->
-	<div class="row barre">
+	<div class="barre">
 		<div id="navbar" class="navbar navbar-default navbar-fixed-top">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -32,18 +32,24 @@
 
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#"><strong>ACCUEIL</strong></a></li>
+            <li class="dropdown"><a href="index.html" id="haut_de_page" class="dropdown-toogle" data-toggle="dropdown" onclick="window.document.location='index.html'"><strong>ACCUEIL</strong></a>
+            	<ul class="dropdown-menu" id="listnav">
+							<li><a href="index.html#clinique">Notre clinique</a></li>
+							<li><a href="index.html#equipe">Notre équipe</a></li>
+							
+          		</ul>
+            </li>
 
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>PRESTATIONS</strong></a>
-          	<ul class="dropdown-menu" id="listnav">
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>PRESTATIONS</strong></a>
+				<ul class="dropdown-menu" id="listnav">
 							<li><a href="prestations.html">consultation</a></li>
 							<li><a href="prestations.html#imagerie">imagerie</a></li>
 							<li><a href="prestations.html#analysesang">analyse sanguine</a></li>
 							<li><a href="prestations.html#chirurgie">chirurgie</a></li>
 							<li><a href="prestations.html#hospitalisation">hospitalisation</a></li>
 							<li><a href="prestations.html#NAC">NAC</a></li>
-          	</ul>
-        	</li>
+				</ul>
+			</li>
 
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>FICHES CONSEIL</strong></a>
               <ul class="dropdown-menu" id="listnav">
@@ -69,10 +75,11 @@
             <li><a href="formulaire_contact.html#localisation">Localisation de la clinique</a></li>
           </ul>
         </li>
-
-            <ul class="nav navbar-nav navbar-right text-center">
+        	<ul class="nav navbar-nav navbar-right text-center">
               <a href="#" class="fa fa-facebook fa-2x"></a>
               <a href="#" class="fa fa-google-plus fa-2x"></a>
+              <a href="#" class="fa fa-envelope fa-2x"></a>
+
             </ul>
 
                        
@@ -87,8 +94,8 @@
 		<div class="col-lg-6 text-center">
 			<img src="Logo_final.png" class="logo">
 			<p class="name_logo">123 Véto Clinique Vétérinaire</p>
-			<p><h1>Dr Wintz et Dr Mayoussier</h1></p><br />
-			<p><h4><a href="#ntrequipe">notre équipe</a></h4></p>
+			<p><h1>Dr Wintz et Dr Mayoussier</h1></p>
+			
 		</div>
 	</div>
 	
@@ -97,7 +104,7 @@
 	<div class="row cadre1">
  	<div class="col-lg-12">
 		<!-- la clinique -->
-		<div class="block_1">
+		<div id="clinique" class="block_1">
 			
 			<div class="col-lg-4 presentation text-center presentation_1">
 			<p>123 Véto clinique vétérinaire vous accueille du lundi au vendredi de 9h à 12h et de 14h à 19h et le samedi de 9h à 12h.</p>
@@ -121,7 +128,7 @@
 	<!-- 2e cadre = notre équipe + footer -->
 	<div class="row cadre2">
 		<div class="col-lg-12">
-			<div class="row block_2" id="ntrequipe">
+			<div id="equipe" class="row block_2">
 				<div class="col-lg-12 text-center">
 					<h2>Notre équipe</h2>
 					<div class="col-lg-6 text-center texte_2 borderright">
@@ -141,16 +148,14 @@
 			</div>
 		</div>
 	</div>
-	</div>
+	
 
 
-
-	<footer>
-		<div class="col-lg-12 text-center">
-			<h5>
-      	<a href="#"><strong>Mentions légales</strong> &bull;</a><a href="#"><strong> Contact </strong>&bull;</a><a href="#"> <strong>Plan du site</strong></a>
-    	</h5>
-		</div>		
+	
+	<footer class="row col-lg-12 text-center">
+		<h5>
+      		<a href="#"><strong>Mentions légales</strong> &bull;</a><a href="#"><strong> Contact </strong>&bull;</a><a href="#"> <strong>Plan du site</strong></a>
+    	</h5>		
 	</footer>
 
 </div>
