@@ -66,3 +66,11 @@ h3 {
 	font-size: 20px;
 }
 
+p {
+	padding-bottom: 25px;
+	border-bottom: 1px solid black;
+}
+
+#lastP {
+	border-bottom: none;
+}
