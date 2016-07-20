@@ -1,5 +1,4 @@
 body {
-	margin: 5vh;
 	font-family: 'Kotta One';
 	background-color: white;
 	padding-top: 5%;
@@ -44,13 +43,17 @@ body {
 /*footer*/
 
 footer {
-	background-color: white;
+	background-color: #44a5e8;
 	height: 50px;
 	padding-top: 8px;
-	color: #44a5e8;
+	margin: 0;
 }
 footer a {
-	color: #44a5e8;
+	color: white;
+}
+
+h2, h3, p {
+	margin: 5vh;
 }
 
 h2 {
@@ -62,3 +65,4 @@ h2 {
 h3 {
 	font-size: 20px;
 }
+
