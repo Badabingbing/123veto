@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+	margin: 5vh;
 	font-family: 'Kotta One';
 	background-color: white;
 	padding-top: 5%;
@@ -51,4 +51,14 @@ footer {
 }
 footer a {
 	color: #44a5e8;
+}
+
+h2 {
+	font-family: 'Gabriela';
+	margin-top: 0;
+	padding-bottom: 5vh;
+}
+
+h3 {
+	font-size: 20px;
 }
