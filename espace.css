@@ -55,8 +55,13 @@ footer a {
 	color: white;
 }
 
-h2, h3, p {
+.servicemedoc, #alim {
 	margin: 5vh;
+}
+
+
+.servicemedoc {
+	border-bottom: 2px solid black;
 }
 
 h2 {
@@ -65,11 +70,18 @@ h2 {
 	padding-bottom: 5vh;
 }
 
+h2 {
+	padding-top: 5%;
+}
+
 h3 {
 	font-size: 20px;
 }
 
 p {
 	padding-bottom: 25px;
-	border-bottom: 1px dotted black;
+}
+
+.lastP {
+	padding-bottom: 10vh;
 }
