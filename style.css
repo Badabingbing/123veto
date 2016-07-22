@@ -54,6 +54,24 @@ body {
 	height: 2%;
 	width: 2%;
 }
+aside {
+	overflow: auto;
+	background-color: whitesmoke;
+	padding-right: 2px !important;
+	padding-top: 10vh;
+	opacity: 0.9;
+}
+aside h5 {
+	padding-left: 15vh;
+	background-color: #44a5e8;
+	color: white;
+}
+aside p {
+	font-family: 'Delius','Gabriela','Kotta One';
+	height: 20vh;
+	overflow: auto;
+	background-color: white;
+}
 
 .logo {
 	height: 60vh;
@@ -163,14 +181,4 @@ footer {
 }
 footer a {
 	color: white;
-}
-
-
-
-/*page newsletter*/
-button {
-	background-color: #44a5e8;
-	color: white;
-	border-radius: 2vh;
-	margin-top: 10vh;
 }
