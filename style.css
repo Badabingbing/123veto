@@ -28,9 +28,9 @@ body {
 #listnav a {
 	color: black;
 }
-/*#navbar a:hover {
-	color: black;
-}*/
+.dropdown-toggle {
+	background-color: #44a5e8 !important;
+}
 
 #navbar ul li {
 	padding-left: 40px;
@@ -50,10 +50,7 @@ body {
 	display: block;
 }
 
-.img_newsletter {
-	height: 2%;
-	width: 2%;
-}
+
 aside {
 	overflow: auto;
 	background-color: whitesmoke;
