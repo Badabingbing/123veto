@@ -28,9 +28,6 @@ body {
 #listnav a {
 	color: black;
 }
-/*#navbar a:hover {
-	color: black;
-}*/
 
 #navbar ul li {
 	padding-left: 40px;
@@ -49,10 +46,8 @@ body {
 	visibility: visible;
 	display: block;
 }
-
-.img_newsletter {
-	height: 2%;
-	width: 2%;
+.dropdown-toggle {
+	background-color: #44a5e8 !important;
 }
 
 .logo {
