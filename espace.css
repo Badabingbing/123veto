@@ -1,0 +1,76 @@
+body {
+	font-family: 'Kotta One';
+	background-color: white;
+	padding-top: 5%;
+}
+
+.nopad {
+	padding-left: 0;
+	padding-right: 0;
+}
+/*navbar*/
+
+.navbar-brand, .name_logo {font-family: 'Gabriela'}
+
+.navbar-brand {
+	border-right: 2.5px solid white;
+	padding-right: 25px;
+}
+#navbar {
+	background-color: #44a5e8;
+}
+#navbar a {
+	color: white;
+}
+#listnav a {
+	color: black;
+}
+#navbar ul li {
+	padding-left: 40px;
+	padding-right: 0px; 
+}
+.navbar-right {
+	padding-top: 10px;
+	padding-left: 60px;
+	word-spacing: 20px;
+	color: blue;
+}
+.dropdown:hover > .dropdown-menu {
+	visibility: visible;
+	display: block;
+}
+.img_newsletter {
+	height: 2%;
+	width: 2%;
+}
+
+/*footer*/
+
+footer {
+	background-color: #44a5e8;
+	height: 50px;
+	padding-top: 8px;
+	margin: 0;
+}
+footer a {
+	color: white;
+}
+
+h2, h3, p {
+	margin: 5vh;
+}
+
+h2 {
+	font-family: 'Gabriela';
+	margin-top: 0;
+	padding-bottom: 5vh;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+p {
+	padding-bottom: 25px;
+	border-bottom: 1px dotted black;
+}
