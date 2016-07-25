@@ -4,7 +4,6 @@ body {
 	background-color: white;
 	padding-top: 5%;
 }
-
 .nopad {
 	padding-left: 0;
 	padding-right: 0;
@@ -53,11 +52,9 @@ body {
 .img1 {
 	margin-top: 12vh;
 }
-
 section {
 	height: 100vh;
 }
-
 h2 {
     padding-top: 5%;
 }
@@ -65,7 +62,6 @@ h2 {
 #dentaire h2 {
 	padding-top: 0;
 }
-
 section p, section h2 {
 	margin: 5vh;
 }
