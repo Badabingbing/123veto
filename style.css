@@ -108,7 +108,7 @@ aside p {
 }
 .presentation_1, .presentation_2{
 	margin-bottom:auto;
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 .img_veto {
@@ -116,6 +116,12 @@ aside p {
 	width: 50%;
 	padding-bottom: 5vh;
 }
+
+#equipe {
+	text-align: center;
+}
+
+
 
 .image{
 	background-image:url("img/facade.JPG");
@@ -141,7 +147,7 @@ aside p {
 }
 h2 {	
 	font-family: 'Gabriela', serif;
-	padding-top:30px;
+	padding-top:47px;
 	font-size:38px;
 }
 h3 {
