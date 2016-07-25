@@ -85,3 +85,19 @@ p {
 .lastP {
 	padding-bottom: 10vh;
 }
+
+img {
+	width: 15vw;
+	height: 27vh;
+	margin: auto;
+}
+
+.prix {
+	white-space: pre;
+	font-weight: bold;
+
+}
+
+.bouton {
+	padding-bottom: 6vh; 
+}
