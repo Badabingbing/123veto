@@ -108,7 +108,7 @@ aside p {
 }
 .presentation_1, .presentation_2{
 	margin-bottom:auto;
-	margin-top: 40px;
+	margin-top: 55px;
 }
 
 .img_veto {
@@ -120,8 +120,6 @@ aside p {
 #equipe {
 	text-align: center;
 }
-
-
 
 .image{
 	background-image:url("img/facade.JPG");
