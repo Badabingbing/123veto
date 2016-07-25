@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Prise de rendez-vous</title>
+	<meta charset="utf-8" />
+	<title> Formulaire </title>
+	<link rel="stylesheet" href="style.css" />
+
+	<title>123 v&eacute;to clinique v&eacute;t&eacute;rinaire </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Kotta+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="prestations.css">
+	<link rel="stylesheet" type="text/css" href="rdv.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
 </head>
 <body>
-<div class="container-fluid nopad">
-	<!-- barre de navigation -->
+	<div class="container-fluid">
+
+<!-- barre de navigation -->
 	<div class="row barre">
 		<div id="navbar" class="navbar navbar-default navbar-fixed-top">
           <div class="navbar-header">
@@ -32,20 +37,21 @@
           <ul class="nav navbar-nav">
             <li><a href="index.html"><strong>ACCUEIL</strong></a></li>
 
-						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>PRESTATIONS</strong></a>
-          		<ul class="dropdown-menu" id="listnav">
-          		  <li><a href="prestations.html">consultation</a></li>
-          		  <li><a href="prestations.html#imagerie">imagerie</a></li>
-          		  <li><a href="prestations.html#analysesang">analyse sanguine</a></li>
-          		  <li><a href="prestations.html#chirurgie">chirurgie</a></li>
-          		  <li><a href="prestations.html#hospitalisation">hospitalisation</a></li>
-			    		  <li><a href="#NAC">NAC</a></li>
-          		</ul>
-        		</li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>PRESTATIONS</strong></a>
+          <ul class="dropdown-menu" id="listnav">
+            <li><a href="prestations.html">consultation</a></li>
+            <li><a href="prestations.html#imagerie">imagerie</a></li>
+            <li><a href="prestations.html#analysesang">analyse sanguine</a></li>
+            <li><a href="prestations.html#chirurgie">chirurgie</a></li>
+            <li><a href="prestations.html#hospitalisation">hospitalisation</a></li>
+						<li><a href="prestations.html#NAC">NAC</a></li>
+          </ul>
+        </li>
+    
 
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="conseils.html"><strong>FICHES CONSEIL</strong></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>FICHES CONSEIL</strong></a>
               <ul class="dropdown-menu" id="listnav">
-                <li><a href="conseils.html">Hygiène dentaire</a></li>
+                <li><a href="conseils.html">
     						<li><a href="conseils.html#yeux">Hygiène des yeux et des oreilles</a></li>
     						<li><a href="conseils.html#pelage">Entretien du pelage</a></li>
     						<li><a href="conseils.html#parasites">Parasites internes et externes</a></li>
@@ -55,30 +61,93 @@
     						<li><a href="conseils.html#education">Éducation</a></li>
               </ul>
             </li>
-        
-        <li><a href="espace.html"><strong>ESPACE VENTE</strong></a></li>
 
-				<li><a href="rdv.html"><strong>PRISE RDV</strong></a></li>
+        
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="espace.html"><strong>ESPACE VENTE</strong></a>
+          <ul class="dropdown-menu" id="listnav">
+              <li><a href="espace.html#medoc">Service médicament</a></li>
+              <li><a href="espace.html#alim">Service alimentation</a></li>
+              
+              </ul>
+        </li>
+
+        <li><a href="rdv.html"><strong>PRISE RDV</strong></a></li>
 
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>CONTACT</strong></a>
           <ul class="dropdown-menu" id="listnav">
             <li><a href="formulaire_contact.html">Formulaire de contact</a></li>
-            <li><a href="formulaire_contact.html#localisation">Localisation de la clinique</a></li>
+            <li><a href="#localisation">Localisation de la clinique</a></li>
           </ul>
         </li>
+            
+        
 
             <ul class="nav navbar-nav navbar-right text-center">
               <a href="#" class="fa fa-facebook fa-2x"></a>
               <a href="#" class="fa fa-google-plus fa-2x"></a>
-              <a href="newsletter.html" class="fa fa-envelope fa-2x"></a>
-            </ul>
+     </ul>
 
                        
         </div>
     </div>
     </div>
+    </div>
+
+
+
+<section id="rdv" class="col-lg-12">
+  <div class="col-lg-6">
+    
+      <form action="mon-formulaire" method="post">
+	     <fieldset>
+    		<legend><h1>Rendez-vous</h1></legend>
+	<div>
+		<label for="Nom"> Nom : </label>
+		<input type="text" id="Nom" />
+		<label for="Prénom"> Prénom :</label>
+		<input type="text" id="Prénom" />
+	</div><br />
+	<div>
+		<label for="Tél"> Tél : </label>
+		<input type="Tél" id="Tél" />
+	
+		<label for="email"> Email : </label>		
+    <input type="email" id="email" />
+	</div><br />
+  <div>
+    <label for="Motif"> Motif : </label>
+      <select>
+        <option>Medecine</option>
+        <option>Chirurgie</option>
+        <option>Vaccin</option>
+        <option>Autres</option>
+      </select>
+    <label for="Nomanimal"> Nom de l'animal : </label>
+    <input type="text" id="Nomanimal" />
+  </div><br />
+	<div>
+	 <label for="Facultatif"> Facultatif : </label>
+   <input type="text" id="Facultatif">
+  </div><br />
+  <div>
+		<label for="sujet"> Commentaire :</label><br />
+		<textarea id="sujet" rows="10" cols="40">
+		</textarea>
+	</div><br />
+	</fieldset>
+	<div>
+		<input type="submit" value="Envoyer">
+		<input type="reset" value="Effacer">
+	</div>
+</form>
 </div>
+<div class="col-lg-6">
 
-
+  <legend><h1>Agenda</h1></legend>
+  <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=500&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23FFFFFF&amp;src=ngnn1lug1h2vh1inja9180alqk%40group.calendar.google.com&amp;color=%23875509&amp;ctz=Europe%2FParis" style="border-width:0" width="600" height="500" frameborder="0" scrolling="no"></iframe>
+</div>
+</section>
+</div>
 </body>
-</html>
+
+
