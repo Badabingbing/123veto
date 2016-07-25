@@ -26,18 +26,21 @@ body {
 	color: black;
 }
 #navbar ul li {
-	padding-left: 25px;
-	padding-right: 25px; 
+	padding-left: 40px;
+	padding-right: 0px; 
 }
 .navbar-right {
 	padding-top: 10px;
-	padding-right: 60px;
-	word-spacing: 30px;
+	padding-left: 60px;
+	word-spacing: 20px;
 	color: blue;
 }
 .dropdown:hover > .dropdown-menu {
 	visibility: visible;
 	display: block;
+}
+.dropdown-toggle {
+	background-color: #44a5e8 !important;
 }
 
 /*footer*/
@@ -68,7 +71,7 @@ h3 {
 
 p {
 	padding-bottom: 25px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px dotted black;
 }
 
 #lastP {

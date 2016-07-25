@@ -1,5 +1,4 @@
 body {
-	margin: 0;
 	font-family: 'Kotta One';
 	background-color: white;
 	padding-top: 5%;
@@ -44,39 +43,45 @@ body {
 	background-color: #44a5e8 !important;
 }
 
-/* sections */
-
-.bluebg {
-	background-color: #44a5e8;
-	color: white;
-}
-
-
-section {
-	height: 100vh;
-}
-
-h2 {
-    padding-top: 5%;
-}
-
-#dentaire h2 {
-	padding-top: 0;
-}
-
-
-section p, section h2 {
-	margin: 5vh;
-}
-
 /*footer*/
 
 footer {
-	background-color: white;
+	background-color: #44a5e8;
 	height: 50px;
 	padding-top: 8px;
-	color: #44a5e8;
+	margin: 0;
 }
 footer a {
-	color: #44a5e8;
+	color: white;
+}
+
+.servicemedoc, #alim {
+	margin: 5vh;
+}
+
+
+.servicemedoc {
+	border-bottom: 2px solid black;
+}
+
+h2 {
+	font-family: 'Gabriela';
+	margin-top: 0;
+	padding-bottom: 5vh;
+}
+
+h2 {
+	padding-top: 5%;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+p {
+	padding-bottom: 25px;
+}
+
+.lastP {
+	padding-bottom: 10vh;
 }

@@ -28,9 +28,9 @@ body {
 #listnav a {
 	color: black;
 }
-/*#navbar a:hover {
-	color: black;
-}*/
+.dropdown-toggle {
+	background-color: #44a5e8 !important;
+}
 
 #navbar ul li {
 	padding-left: 40px;
@@ -50,9 +50,24 @@ body {
 	display: block;
 }
 
-.img_newsletter {
-	height: 2%;
-	width: 2%;
+
+aside {
+	overflow: auto;
+	background-color: whitesmoke;
+	padding-right: 2px !important;
+	padding-top: 10vh;
+	opacity: 0.9;
+}
+aside h5 {
+	padding-left: 15vh;
+	background-color: #44a5e8;
+	color: white;
+}
+aside p {
+	font-family: 'Delius','Gabriela','Kotta One';
+	height: 20vh;
+	overflow: auto;
+	background-color: white;
 }
 
 .logo {
@@ -88,8 +103,8 @@ body {
 	font-weight: 600;
 	padding: 2%;
 	margin:5%;
-	border-top:2px black solid;
-	border-bottom:2px black solid;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
 }
 .presentation_1, .presentation_2{
 	margin-bottom:auto;
@@ -106,9 +121,9 @@ body {
 	background-image:url("img/facade.JPG");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height:47vh;
+	height:45vh;
 	border-radius:25px;
-	border:5px black solid;
+	border:3px black solid;
 	margin:2%;
 	padding:17%;
 }
@@ -163,14 +178,4 @@ footer {
 }
 footer a {
 	color: white;
-}
-
-
-
-/*page newsletter*/
-button {
-	background-color: #44a5e8;
-	color: white;
-	border-radius: 2vh;
-	margin-top: 10vh;
 }
