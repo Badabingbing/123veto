@@ -38,7 +38,7 @@ body {
 }
 .navbar-right {
 	padding-top: 10px;
-	padding-left: 60px;
+	margin-left: 100px;
 	word-spacing: 20px;
 	color: blue;
 }
@@ -141,8 +141,11 @@ h3 {
 	border-right: 1px solid black;
 }
 
+#contact {
+	padding-top: 35px;
+}
 #localisation {
-	padding-top: 30px;
+	padding-top: 35px;
 }
 
 section {

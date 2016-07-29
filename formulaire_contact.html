@@ -73,41 +73,38 @@
 
         <li><a href="rdv.html"><strong>PRISE RDV</strong></a></li>
 
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>CONTACT</strong></a>
-          <ul class="dropdown-menu" id="listnav">
-            <li><a href="formulaire_contact.html">Formulaire de contact</a></li>
-            <li><a href="#localisation">Localisation de la clinique</a></li>
-          </ul>
-        </li>
+        <li><a href="formulaire_contact.html"><strong>CONTACT</strong></a></li>
             
         
 
             <ul class="nav navbar-nav navbar-right text-center">
               <a href="#" class="fa fa-facebook fa-2x"></a>
               <a href="#" class="fa fa-google-plus fa-2x"></a>
-     </ul>
+            </ul>
 
                        
         </div>
     </div>
     </div>
-<section class="contact">
+
+
+<section class="col-lg-12">
+<div id="contact" class="col-lg-6">
 <h1>Contact</h1>
 <form action="mon-formulaire" method="post">
 	<fieldset>
-    		<legend><h1>Contact</h1></legend>
-	<div>
+    			<div>
 		<label for="Nom"> Nom : </label><br />
 		<input type="text" id="Nom" />
-	</div><br />
+	</div>
 	<div>
 		<label for="Prénom"> Prénom :</label><br />
 		<input type="text" id="Prénom" />
-	</div><br />
+	</div>
 	<div>
 		<label for="Tél"> Tél : </label><br />
 		<input type="Tél" id="Tél" />
-	</div><br />
+	</div>
 	<div>
 		<label for="email"> Email : </label><br />
 		<input type="email" id="email" />
@@ -118,9 +115,9 @@
 	
 	<div>
 		<label for="sujet"> Message :</label><br />
-		<textarea id="sujet" rows="10" cols="40">
+		<textarea id="sujet" rows="09" cols="40">
 		</textarea>
-	</div><br />
+	</div>
 	</fieldset>
 	<div>
 		<input type="submit" value="Envoyer">
@@ -128,9 +125,9 @@
 	</div>
 </form>
 </body>
-</section>
+</div>
 
-<section id="localisation">
+<div id="localisation" class="col-lg-6">
 <h1>Localisation de la clinique</h1>
 			<div>
                 <p>32 rue du vélodrome à Pontchâteau (Loire-Atlantique)</p>
@@ -138,7 +135,8 @@
                 <p>02 40 01 61 69</p>
             </div>
             <div>
-               <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									google maps carte							</a></small></div><div><small><a href="http://youtubeembedcode.com">embed youtube</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(47.4322084,-2.0773735000000215),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.4322084,-2.0773735000000215)});infowindow = new google.maps.InfoWindow({content:'<strong>Clinique Vétérinaire 123 Veto</strong><br>32 rue du Vélodrome 44160 PONTCHATEAU<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+               <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:450px;width:580px;'><div id='gmap_canvas' style='height:450px;width:580px;'></div><div><small><a href="http://embedgooglemaps.com">									google maps carte							</a></small></div><div><small><a href="http://youtubeembedcode.com">embed youtube</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(47.4322084,-2.0773735000000215),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.4322084,-2.0773735000000215)});infowindow = new google.maps.InfoWindow({content:'<strong>Clinique Vétérinaire 123 Veto</strong><br>32 rue du Vélodrome 44160 PONTCHATEAU<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+</div>
 </section>
 
 
