@@ -46,7 +46,9 @@ body {
 .dropdown-toggle {
 	background-color: #44a5e8 !important;
 }
-
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #44a5e8 !important;
+}
 .logo {
 	height: 60vh;
 	margin-top: 15vh;

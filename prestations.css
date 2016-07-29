@@ -33,6 +33,9 @@ body {
 .dropdown-menu > li > a {
 	padding: 3px 10px !important;
 }
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #44a5e8 !important;
+}
 #navbar ul li {
 	padding-left: 40px;
 	padding-right: 0px; 
