@@ -82,12 +82,7 @@
 
 							<li><a href="rdv.html"><strong>PRISE RDV</strong></a></li>
 
-							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>CONTACT</strong></a>
-								<ul class="dropdown-menu" id="listnav">
-									<li><a href="formulaire_contact.html">Formulaire de contact</a></li>
-									<li><a href="#localisation">Localisation de la clinique</a></li>
-								</ul>
-							</li>
+							<li><a href="formulaire_contact.html"><strong>CONTACT</strong></a></li>
 
 
 
@@ -100,29 +95,28 @@
 				</div>
 			</div>
 		</div>
-		<section class="contact">
-			<h1></h1>
+
+    
+		<section class="col-lg-12">
+      <div id="contact" class="col-lg-6">
+			<h1>Contact</h1>
 			<form action="mon-formulaire" method="post">
 				<fieldset>
-					<legend>
-						<h1 id="titre_top">Contact</h1></legend>
+					
 					<div>
 						<label for="Nom"> Nom : </label><br />
 						<input type="text" id="Nom" />
-					</div><br />
+					</div>
 					<div>
 						<label for="Prénom"> Prénom :</label><br />
 						<input type="text" id="Prénom" />
-					</div><br />
+					</div>
 					<div>
 						<label for="Tél"> Tél : </label><br />
 						<input type="Tél" id="Tél" />
-					</div><br />
-					<div>
-						<label for="email"> Email : </label><br />
-						<input type="email" id="email" />
-					</div><br />
-				</fieldset>
+					</div>
+					
+				</fieldset><br />
 				<fieldset>
 					<legend>Demandes de renseignement</legend>
 
@@ -137,6 +131,7 @@
 					<input type="reset" value="Effacer">
 				</div>
 			</form>
+<<<<<<< HEAD
 
 </body>
 </div>
@@ -153,7 +148,25 @@
                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:450px;width:580px;'><div id='gmap_canvas' style='height:450px;width:580px;'></div><div><small><a href="http://embedgooglemaps.com">									google maps carte							</a></small></div><div><small><a href="http://youtubeembedcode.com">embed youtube</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(47.4322084,-2.0773735000000215),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.4322084,-2.0773735000000215)});infowindow = new google.maps.InfoWindow({content:'<strong>Clinique Vétérinaire 123 Veto</strong><br>32 rue du Vélodrome 44160 PONTCHATEAU<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 </div>
 
+=======
+</div>
+
+
+
+<div id="localisation" class="col-lg-6">
+<h1>Localisation de la clinique</h1>
+			<div>
+                <p>32 rue du vélodrome à Pontchâteau (Loire-Atlantique)</p>
+                <p>Du lundi au vendredi de 9h à 12h et de 14h à 19h et le samedi de 9h à 12h.</p>
+                <p>02 40 01 61 69</p>
+            </div>
+            <div>
+               <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:450px;width:580px;'><div id='gmap_canvas' style='height:450px;width:580px;'></div><div><small><a href="http://embedgooglemaps.com">									google maps carte							</a></small></div><div><small><a href="http://youtubeembedcode.com">embed youtube</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(47.4322084,-2.0773735000000215),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.4322084,-2.0773735000000215)});infowindow = new google.maps.InfoWindow({content:'<strong>Clinique Vétérinaire 123 Veto</strong><br>32 rue du Vélodrome 44160 PONTCHATEAU<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+</div>
+>>>>>>> b86e7c4c2c01618b06c886010aed617e26aa755e
 </section>
 
 
 </html>
+</body>
