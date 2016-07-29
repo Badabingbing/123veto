@@ -76,3 +76,11 @@ label {
     float: left;
 }
 
+#commentaire {
+	float: left;
+}
+#bouton {
+	float: left;
+	display: block;
+}
+
