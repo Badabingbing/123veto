@@ -30,12 +30,11 @@ body {
 	margin-left: -35px !important;
 }
 .dropdown-menu > li > a {
-	padding: 3px 45px 3px 10px !important;
+	padding: 3px 10px !important;
 }
 .dropdown-toggle {
 	background-color: #44a5e8 !important;
 }
-
 #navbar ul li {
 	padding-left: 40px;
 	padding-right: 0px;
@@ -53,6 +52,7 @@ body {
 	visibility: visible;
 	display: block;
 	margin-left: 30px;
+	min-width: 0;
 }
 
 
