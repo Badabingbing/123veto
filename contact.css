@@ -159,5 +159,11 @@ footer a {
 	color: white;
 }
 
+h1 {
+	font-family: 'Gabriela';
+}
 
+#titre_top {
+	margin-top: 8vh;
+}
 
