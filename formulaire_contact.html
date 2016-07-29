@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8" />
 	<title> Formulaire </title>
@@ -9,136 +10,177 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Kotta+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="contact.css">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
 </head>
+
 <body>
 	<div class="container-fluid">
 
-<!-- barre de navigation -->
-	<div class="row barre">
-		<div id="navbar" class="navbar navbar-default navbar-fixed-top">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		<!-- barre de navigation -->
+		<div class="row barre">
+			<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-              <a class="navbar-brand" href="index.html"><strong>123 VETO</strong></a>
-          </div>
+					<a class="navbar-brand" href="index.html"><strong>123 VETO</strong></a>
+				</div>
 
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html"><strong>ACCUEIL</strong></a></li>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="dropdown"><a href="index.html" id="haut_de_page" class="dropdown-toogle" data-toggle="dropdown" onclick="window.document.location='index.html'"><strong>ACCUEIL</strong></a>
+							<ul class="dropdown-menu" id="listnav">
+								<li><a href="index.html#clinique">Notre clinique</a></li>
+								<li><a href="index.html#equipe">Notre équipe</a></li>
+							</ul>
+						</li>
 
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>PRESTATIONS</strong></a>
-          <ul class="dropdown-menu" id="listnav">
-            <li><a href="prestations.html">consultation</a></li>
-            <li><a href="prestations.html#imagerie">imagerie</a></li>
-            <li><a href="prestations.html#analysesang">analyse sanguine</a></li>
-            <li><a href="prestations.html#chirurgie">chirurgie</a></li>
-            <li><a href="prestations.html#hospitalisation">hospitalisation</a></li>
-						<li><a href="prestations.html#NAC">NAC</a></li>
-          </ul>
-        </li>
-    
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>PRESTATIONS</strong></a>
+							<ul class="dropdown-menu" id="listnav">
+								<li><a href="prestations.html">consultation</a></li>
+								<li><a href="prestations.html#imagerie">imagerie</a></li>
+								<li><a href="prestations.html#analysesang">analyse sanguine</a></li>
+								<li><a href="prestations.html#chirurgie">chirurgie</a></li>
+								<li><a href="prestations.html#hospitalisation">hospitalisation</a></li>
+								<li><a href="prestations.html#NAC">NAC</a></li>
+							</ul>
+						</li>
 
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>FICHES CONSEIL</strong></a>
-              <ul class="dropdown-menu" id="listnav">
-                <li><a href="conseils.html">
-    						<li><a href="conseils.html#yeux">Hygiène des yeux et des oreilles</a></li>
-    						<li><a href="conseils.html#pelage">Entretien du pelage</a></li>
-    						<li><a href="conseils.html#parasites">Parasites internes et externes</a></li>
-    						<li><a href="conseils.html#vaccinchien">Vacciner votre chien</a></li>
-    						<li><a href="conseils.html#vaccinchat">Vacciner votre chat</a></li>
-    						<li><a href="conseils.html#identification">Identification</a></li>
-    						<li><a href="conseils.html#education">Éducation</a></li>
-              </ul>
-            </li>
 
-        
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="espace.html"><strong>ESPACE VENTE</strong></a>
-          <ul class="dropdown-menu" id="listnav">
-              <li><a href="espace.html#medoc">Service médicament</a></li>
-              <li><a href="espace.html#alim">Service alimentation</a></li>
-              
-              </ul>
-        </li>
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>FICHES CONSEIL</strong></a>
+							<ul class="dropdown-menu" id="listnav">
+								<li>
+									<a href="conseils.html">
+										<li><a href="conseils.html#yeux">Hygiène des yeux et des oreilles</a></li>
+										<li><a href="conseils.html#pelage">Entretien du pelage</a></li>
+										<li><a href="conseils.html#parasites">Parasites internes et externes</a></li>
+										<li><a href="conseils.html#vaccinchien">Vacciner votre chien</a></li>
+										<li><a href="conseils.html#vaccinchat">Vacciner votre chat</a></li>
+										<li><a href="conseils.html#identification">Identification</a></li>
+										<li><a href="conseils.html#education">Éducation</a></li>
+							</ul>
+							</li>
 
-        <li><a href="rdv.html"><strong>PRISE RDV</strong></a></li>
 
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>CONTACT</strong></a>
-          <ul class="dropdown-menu" id="listnav">
-            <li><a href="formulaire_contact.html">Formulaire de contact</a></li>
-            <li><a href="#localisation">Localisation de la clinique</a></li>
-          </ul>
-        </li>
-            
-        
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="espace.html"><strong>ESPACE VENTE</strong></a>
+								<ul class="dropdown-menu" id="listnav">
+									<li><a href="espace.html#medoc">Service médicament</a></li>
+									<li><a href="espace.html#alim">Service alimentation</a></li>
 
-            <ul class="nav navbar-nav navbar-right text-center">
-              <a href="#" class="fa fa-facebook fa-2x"></a>
-              <a href="#" class="fa fa-google-plus fa-2x"></a>
-     </ul>
+								</ul>
+							</li>
 
-                       
-        </div>
-    </div>
-    </div>
-<section class="contact">
-<h1></h1>
-<form action="mon-formulaire" method="post">
-	<fieldset>
-    		<legend><h1 id="titre_top">Contact</h1></legend>
-	<div>
-		<label for="Nom"> Nom : </label><br />
-		<input type="text" id="Nom" />
-	</div><br />
-	<div>
-		<label for="Prénom"> Prénom :</label><br />
-		<input type="text" id="Prénom" />
-	</div><br />
-	<div>
-		<label for="Tél"> Tél : </label><br />
-		<input type="Tél" id="Tél" />
-	</div><br />
-	<div>
-		<label for="email"> Email : </label><br />
-		<input type="email" id="email" />
-	</div><br />
-	</fieldset>
-	<fieldset>
-    		<legend>Demandes de renseignement</legend>
-	
-	<div>
-		<label for="sujet"> Message :</label><br />
-		<textarea id="sujet" rows="10" cols="40">
+							<li><a href="rdv.html"><strong>PRISE RDV</strong></a></li>
+
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>CONTACT</strong></a>
+								<ul class="dropdown-menu" id="listnav">
+									<li><a href="formulaire_contact.html">Formulaire de contact</a></li>
+									<li><a href="#localisation">Localisation de la clinique</a></li>
+								</ul>
+							</li>
+
+
+
+							<ul class="nav navbar-nav navbar-right text-center">
+								<a href="#" class="fa fa-facebook fa-2x"></a>
+								<a href="#" class="fa fa-google-plus fa-2x"></a>
+							</ul>
+
+
+				</div>
+			</div>
+		</div>
+		<section class="contact">
+			<h1></h1>
+			<form action="mon-formulaire" method="post">
+				<fieldset>
+					<legend>
+						<h1 id="titre_top">Contact</h1></legend>
+					<div>
+						<label for="Nom"> Nom : </label><br />
+						<input type="text" id="Nom" />
+					</div><br />
+					<div>
+						<label for="Prénom"> Prénom :</label><br />
+						<input type="text" id="Prénom" />
+					</div><br />
+					<div>
+						<label for="Tél"> Tél : </label><br />
+						<input type="Tél" id="Tél" />
+					</div><br />
+					<div>
+						<label for="email"> Email : </label><br />
+						<input type="email" id="email" />
+					</div><br />
+				</fieldset>
+				<fieldset>
+					<legend>Demandes de renseignement</legend>
+
+					<div>
+						<label for="sujet"> Message :</label><br />
+						<textarea id="sujet" rows="10" cols="40">
 		</textarea>
-	</div><br />
-	</fieldset>
-	<div>
-		<input type="submit" value="Envoyer">
-		<input type="reset" value="Effacer">
-	</div>
-</form>
+					</div><br />
+				</fieldset>
+				<div>
+					<input type="submit" value="Envoyer">
+					<input type="reset" value="Effacer">
+				</div>
+			</form>
 </body>
 </section>
 
 <section id="localisation">
-<h1>Localisation de la clinique</h1>
-			<div>
-                <p>32 rue du vélodrome à Pontchâteau (Loire-Atlantique)</p>
-                <p>Du lundi au vendredi de 9h à 12h et de 14h à 19h et le samedi de 9h à 12h.</p>
-                <p>02 40 01 61 69</p>
-            </div>
-            <div>
-               <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									google maps carte							</a></small></div><div><small><a href="http://youtubeembedcode.com">embed youtube</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(47.4322084,-2.0773735000000215),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.4322084,-2.0773735000000215)});infowindow = new google.maps.InfoWindow({content:'<strong>Clinique Vétérinaire 123 Veto</strong><br>32 rue du Vélodrome 44160 PONTCHATEAU<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+	<h1>Localisation de la clinique</h1>
+	<div>
+		<p>32 rue du vélodrome à Pontchâteau (Loire-Atlantique)</p>
+		<p>Du lundi au vendredi de 9h à 12h et de 14h à 19h et le samedi de 9h à 12h.</p>
+		<p>02 40 01 61 69</p>
+	</div>
+	<div>
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+		<div style='overflow:hidden;height:440px;width:700px;'>
+			<div id='gmap_canvas' style='height:440px;width:700px;'></div>
+			<div><small><a href="http://embedgooglemaps.com">									google maps carte							</a></small></div>
+			<div><small><a href="http://youtubeembedcode.com">embed youtube</a></small></div>
+			<style>
+				#gmap_canvas img {
+					max-width: none!important;
+					background: none!important
+				}
+			</style>
+		</div>
+		<script type='text/javascript'>
+			function init_map() {
+				var myOptions = {
+					zoom: 10,
+					center: new google.maps.LatLng(47.4322084, -2.0773735000000215),
+					mapTypeId: google.maps.MapTypeId.ROADMAP
+				};
+				map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+				marker = new google.maps.Marker({
+					map: map,
+					position: new google.maps.LatLng(47.4322084, -2.0773735000000215)
+				});
+				infowindow = new google.maps.InfoWindow({
+					content: '<strong>Clinique Vétérinaire 123 Veto</strong><br>32 rue du Vélodrome 44160 PONTCHATEAU<br>'
+				});
+				google.maps.event.addListener(marker, 'click', function() {
+					infowindow.open(map, marker);
+				});
+				infowindow.open(map, marker);
+			}
+			google.maps.event.addDomListener(window, 'load', init_map);
+		</script>
 </section>
 
 
