@@ -70,6 +70,10 @@ body {
 	margin-top: 20px;
 }
 
+#agenda {
+	margin-top: 20px;
+}
+
 label {
     display: block;
     width: 150px;
@@ -79,8 +83,18 @@ label {
 #commentaire {
 	float: left;
 }
+
 #bouton {
 	float: left;
 	display: block;
 }
 
+footer {
+	background-color: #44a5e8;
+	height: 50px;
+	padding-top: 8px;
+	color: white;
+}
+footer a {
+	color: white;
+}
