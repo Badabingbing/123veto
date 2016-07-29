@@ -176,12 +176,13 @@ h3 {
 #localisation {
 	padding-top: 30px;
 }
+
 footer {
 	background-color: #44a5e8;
 	height: 50px;
 	padding-top: 8px;
 	color: white;
-	width: 100%;
+	margin: 0 -15px -15px;
 }
 
 footer a {
