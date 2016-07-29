@@ -2,7 +2,7 @@
 /* font-family: Delius; font-family: 'Gabriela', serif; font-family: 'Kotta One'; */
 
 body {
-	margin: 0;
+	margin: 15px;
 	font-family: 'Kotta One';
 	background-color: white;
 }
@@ -38,7 +38,9 @@ body {
 }
 .navbar-right {
 	padding-top: 10px;
+
 	margin-left: 100px;
+
 	word-spacing: 20px;
 	color: blue;
 }
@@ -48,7 +50,7 @@ body {
 .dropdown:hover > .dropdown-menu {
 	visibility: visible;
 	display: block;
-	margin-left: 30px;
+	margin-left: 20px;
 	min-width: 0;
 }
 .dropdown-toggle {
@@ -162,5 +164,11 @@ footer a {
 	color: white;
 }
 
+h1 {
+	font-family: 'Gabriela';
+}
 
+#titre_top {
+	margin-top: 8vh;
+}
 

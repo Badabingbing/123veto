@@ -2,7 +2,7 @@
 /* font-family: Delius; font-family: 'Gabriela', serif; font-family: 'Kotta One'; */
 
 body {
-	margin: 0;
+	margin: 15px;
 	font-family: 'Kotta One';
 	background-color: white;
 }
@@ -51,7 +51,7 @@ body {
 .dropdown:hover > .dropdown-menu {
 	visibility: visible;
 	display: block;
-	margin-left: 30px;
+	margin-left: 20px;
 	min-width: 0;
 }
 

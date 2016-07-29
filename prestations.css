@@ -46,7 +46,7 @@ body {
 .dropdown:hover > .dropdown-menu {
 	visibility: visible;
 	display: block;
-	margin-left: 30px;
+	margin-left: 20px;
 	min-width: 0;
 }
 .dropdown-toggle {
@@ -65,6 +65,7 @@ section {
 h2 {
     padding-top: 5%;
     margin-left: 5vh;
+    font-family: 'Gabriela';
 }
 #consultation h2 {
     padding-top: 0;
