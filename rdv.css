@@ -32,7 +32,7 @@ body {
 }
 .navbar-right {
 	padding-top: 10px;
-	padding-left: 60px;
+	margin-left: 100px;
 	word-spacing: 20px;
 	color: blue;
 }
@@ -69,3 +69,10 @@ body {
 #rdv {
 	margin-top: 50px;
 }
+
+label {
+    display: block;
+    width: 150px;
+    float: left;
+}
+
