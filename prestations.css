@@ -28,6 +28,10 @@ body {
 }
 #listnav a {
 	color: black;
+	margin-left: -35px !important;
+}
+.dropdown-menu > li > a {
+	padding: 3px 10px !important;
 }
 #navbar ul li {
 	padding-left: 40px;
@@ -42,6 +46,7 @@ body {
 .dropdown:hover > .dropdown-menu {
 	visibility: visible;
 	display: block;
+	margin-left: 30px;
 }
 .dropdown-toggle {
 	background-color: #44a5e8 !important;
@@ -134,6 +139,11 @@ h2 {
 	width:100%;
 }
 .sect_analy_sg {
+	margin-left: 18%;
+	margin-right: 10%;
+	margin-top: 4vh;
+}
+.sect_imagerie{
 	margin-left: 18%;
 	margin-right: 10%;
 	margin-top: 4vh;
