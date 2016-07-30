@@ -5,8 +5,8 @@
 
 **La navbar (background :#44A5E8 et fixed-top)**<br/>
 **La navbar (background :#44A5E8) : footer**<br/>
-(background :#44A5E8 & white)
-####typo : _Delius, Gabriela et Kotta One_<br/>
+(background-color : #44A5E8 & white)
+####typo : _(Delius, Gabriela et Kotta One)_<br/>
 -----------------
 <br/>
 #Voici le rendu du site :
