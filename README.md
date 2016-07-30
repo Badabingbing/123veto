@@ -1,22 +1,12 @@
 #123veto
 
-###Description suivant : _la page d'accueil_
+###Description :
 -----------------
 
-**La navbar (background :#44a5e8 et fixed-top) : header**
-
-**> Section 1 :** <br/>
-<!-- -->
-Descriptif de la clinique + photo <br/>
-(background :#44a5e8)
-
-**> Section 2 :** <br/>
-<!-- -->
-Descriptif + portraits ==> Notre équipe : les 2 vétérianaires <br/>
-(background : white)
-
-**La navbar (background :#44a5e8) : footer**
-####typo : _Delius, Gabriela et Kotta One_
+**La navbar (background :#44A5E8 et fixed-top)**<br/>
+**La navbar (background :#44A5E8) : footer**<br/>
+(background :#44A5E8 & white)
+####typo : _Delius, Gabriela et Kotta One_<br/>
 -----------------
 <br/>
 #Voici le rendu du site :
