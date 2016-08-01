@@ -57,8 +57,6 @@ body {
 	margin-left: 20px;
 	min-width: 0;
 }
-
-
 aside {
 	overflow: auto;
 	background-color: whitesmoke;
@@ -77,7 +75,6 @@ aside p {
 	overflow: auto;
 	background-color: white;
 }
-
 .logo {
 	height: 60vh;
 	margin-top: 15vh;
@@ -118,17 +115,14 @@ aside p {
 	margin-bottom:auto;
 	margin-top: 55px;
 }
-
 .img_veto {
 	height: 50%;
 	width: 50%;
 	padding-bottom: 5vh;
 }
-
 #equipe {
 	text-align: center;
 }
-
 .image{
 	background-image:url("img/facade.JPG");
 	background-repeat: no-repeat;
@@ -164,15 +158,12 @@ h3 {
 .texte_2{
 	margin-top:50px;
 }
-
 .borderright {
 	border-right: 1px solid black;
 }
-
 .equipe {
 	padding-bottom: 5vh;
 }
-
 #localisation {
 	padding-top: 30px;
 }
