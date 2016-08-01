@@ -175,3 +175,19 @@ h1 {
 	margin-top: 8vh;
 }
 
+#gmap_canvas img{
+	max-width:none!important;
+	background:none!important
+}
+
+#gmap_canvas{
+	width:45vw;
+	height:50vh;
+}
+
+
+@media screen and (max-width: 320px) {
+	#gmap_canvas {
+		width: 100%;
+	}
+}
